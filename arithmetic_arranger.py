@@ -42,7 +42,7 @@ def arithmetic_arranger(problems, answers=False):
             whitespacesRow4 = problemsLen[i] - len(problemsResults[i])
             problemsRows['row4'] = problemsRows['row4'] + whitespacesRow4 * " " + problemsResults[i] + "    "
         i += 1
-# math
+#final format
     if answers == False:
         return problemsRows['row1'].rstrip() + "\n" + problemsRows['row2'].rstrip() + "\n" + problemsRows['row3'].rstrip()
     elif answers == True:
